@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "hambre_regenerativa",
+  "version": "${version}",
+  "name": "Hambre Regenerativa",
+  "description": "Regenera vida lentamente según el nivel de hambre del jugador.",
+  "authors": ["OpenAI"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.chatgpt.hambreregenerativa.HambreRegenerativa"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "0.166.2+26.3"
+  }
+}
